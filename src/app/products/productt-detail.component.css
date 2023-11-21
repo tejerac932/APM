@@ -1,0 +1,23 @@
+.section-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas:
+    "label description picture picture";
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.section-container p {
+    margin: 0;
+}
+.label {
+    grid-area: label;
+}
+
+.description {
+    grid-area: description;
+}
+
+.picture {
+    grid-area: picture;
+    margin: auto;
+}
